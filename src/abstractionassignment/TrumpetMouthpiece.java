@@ -10,5 +10,5 @@ package abstractionassignment;
  * @author John
  */
 public class TrumpetMouthpiece extends TrumpetAccessory{
-    
+    private String size;
 }

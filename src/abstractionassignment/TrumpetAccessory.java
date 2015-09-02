@@ -10,5 +10,5 @@ package abstractionassignment;
  * @author John
  */
 public class TrumpetAccessory extends InstrumentAccessory{
-    
+    private boolean isConsumable;
 }

@@ -10,5 +10,5 @@ package abstractionassignment;
  * @author John
  */
 public class MusicAccessories {
-    
+    private double price;
 }
