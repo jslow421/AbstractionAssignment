@@ -11,4 +11,14 @@ package abstractionassignment;
  */
 public class Cup extends LiquidContainer{
     private int handles;
+
+    public int getHandles() {
+        return handles;
+    }
+
+    public void setHandles(int handles) {
+        this.handles = handles;
+    }
+    
+    
 }

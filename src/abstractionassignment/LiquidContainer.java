@@ -11,4 +11,14 @@ package abstractionassignment;
  */
 public class LiquidContainer extends FoodContainer {
     private double liquidAmt;
+
+    public double getLiquidAmt() {
+        return liquidAmt;
+    }
+
+    public void setLiquidAmt(double liquidAmt) {
+        this.liquidAmt = liquidAmt;
+    }
+    
+    
 }

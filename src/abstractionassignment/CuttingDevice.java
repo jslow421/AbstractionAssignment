@@ -10,5 +10,16 @@ package abstractionassignment;
  * @author John
  */
 public class CuttingDevice extends HandheldTool{
+    private int numBlades;
+
+    public int getNumBlades() {
+        return numBlades;
+    }
+
+    public void setNumBlades(int numBlades) {
+        this.numBlades = numBlades;
+    }
+    
+    
     
 }

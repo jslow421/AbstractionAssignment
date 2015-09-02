@@ -12,4 +12,22 @@ package abstractionassignment;
 public class Mammal implements Animal{
     private boolean breathsAir = true;
     private String name;
+
+    public boolean isBreathsAir() {
+        return breathsAir;
+    }
+
+    public void setBreathsAir(boolean breathsAir) {
+        this.breathsAir = breathsAir;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public void setName(String name) {
+        this.name = name;
+    }
+    
+    
 }

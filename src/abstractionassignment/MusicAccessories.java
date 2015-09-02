@@ -11,4 +11,14 @@ package abstractionassignment;
  */
 public class MusicAccessories {
     private double price;
+
+    public double getPrice() {
+        return price;
+    }
+
+    public void setPrice(double price) {
+        this.price = price;
+    }
+    
+    
 }

@@ -10,5 +10,15 @@ package abstractionassignment;
  * @author John
  */
 public class Bigfoot extends Biped{
+    private boolean isReal;
+
+    public boolean isIsReal() {
+        return isReal;
+    }
+
+    public void setIsReal(boolean isReal) {
+        this.isReal = isReal;
+    }
+    
     
 }

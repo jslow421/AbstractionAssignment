@@ -10,6 +10,16 @@ package abstractionassignment;
  * @author John
  */
 public class InstrumentAccessory extends MusicAccessories{
-    private String instrumentClass;
+    private String instrumentFamily;
+
+    public String getInstrumentFamily() {
+        return instrumentFamily;
+    }
+
+    public void setInstrumentFamily(String instrumentFamily) {
+        this.instrumentFamily = instrumentFamily;
+    }
+    
+    
     
 }

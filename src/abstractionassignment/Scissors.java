@@ -11,4 +11,16 @@ package abstractionassignment;
  */
 public class Scissors extends CuttingDevice{
     
+    private String bladeDesign;
+
+    public String getBladeDesign() {
+        return bladeDesign;
+    }
+
+    public void setBladeDesign(String bladeDesign) {
+        this.bladeDesign = bladeDesign;
+    }
+    
+    
+    
 }

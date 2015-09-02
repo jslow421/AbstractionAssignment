@@ -11,4 +11,14 @@ package abstractionassignment;
  */
 public class Biped extends Mammal{
     private boolean twoLegs = true;
+
+    public boolean isTwoLegs() {
+        return twoLegs;
+    }
+
+    public void setTwoLegs(boolean twoLegs) {
+        this.twoLegs = twoLegs;
+    }
+    
+    
 }

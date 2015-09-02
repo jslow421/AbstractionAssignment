@@ -11,4 +11,14 @@ package abstractionassignment;
  */
 public class TrumpetAccessory extends InstrumentAccessory{
     private boolean isConsumable;
+
+    public boolean isIsConsumable() {
+        return isConsumable;
+    }
+
+    public void setIsConsumable(boolean isConsumable) {
+        this.isConsumable = isConsumable;
+    }
+    
+    
 }
