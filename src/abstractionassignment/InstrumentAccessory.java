@@ -10,5 +10,6 @@ package abstractionassignment;
  * @author John
  */
 public class InstrumentAccessory extends MusicAccessories{
+    private String instrumentClass;
     
 }
